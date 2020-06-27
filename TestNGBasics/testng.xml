@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+	<test thread-count="5" name="RegressionTesting">
+		<groups>
+			<run>
+				<include name="reg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="Module1.Payment" />
+			<class name="Module1.Email">
+			</class>
+		</classes>
+	</test> <!-- AutomationTesting -->
+	
+	<test thread-count="5" name="SmokeTesting">
+		<groups>
+			<run>
+				<include name="smk"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="Module1.Payment" />
+			<class name="Module1.Email">
+			</class>
+		</classes>
+	</test>
+</suite> <!-- AutomationSuite -->

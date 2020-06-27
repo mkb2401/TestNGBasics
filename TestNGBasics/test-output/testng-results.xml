@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66749" started-at="2020-06-04T19:43:20 IST" finished-at="2020-06-04T19:44:27 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66749" started-at="2020-06-04T19:43:20 IST" finished-at="2020-06-04T19:44:27 IST">
+      <class name="Module1.FBSignIn">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Module1.FBSignIn@5b87ed94]" name="setUp" is-config="true" duration-ms="10814" started-at="2020-06-04T19:43:20 IST" finished-at="2020-06-04T19:43:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module1.FBSignIn@5b87ed94]" name="f" duration-ms="25591" started-at="2020-06-04T19:43:31 IST" data-provider="dataP" finished-at="2020-06-04T19:43:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mandeep]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kaur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module1.FBSignIn@5b87ed94]" name="f" duration-ms="16806" started-at="2020-06-04T19:43:57 IST" data-provider="dataP" finished-at="2020-06-04T19:44:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lname2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Module1.FBSignIn@5b87ed94]" name="f" duration-ms="13145" started-at="2020-06-04T19:44:14 IST" data-provider="dataP" finished-at="2020-06-04T19:44:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lname3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Module1.FBSignIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
